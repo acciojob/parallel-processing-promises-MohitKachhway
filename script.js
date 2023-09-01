@@ -38,7 +38,7 @@ function download(images){
 	})
 }
 // let btn = document.getElementById("download-images-button");
-btn.addEventListener("click",download(images));
+btn.addEventListener("click",function(){download(images)});
 
 
 
